@@ -1,0 +1,40 @@
+Цвет шрифта в окне || Fonts, Colors & System Metrics > Fonts & System Metrics (WINDOWTEXT:COLOR) 
+Bara de sus, textul
+Открываешь в Vista\Windows Style Builder стиль, из которого надо достать какой-то эффект.
+В данном случае смотришь секцию:
+Address, Breadcrumb & Search > Breadcrumb > Aero > Normal > Active Crumbs,
+В панели свойств ищешь TEXTGLOWSIZE:INT и GLOWCOLOR:COLOR, именно они отвечают за GLOW-эффект.
+Щелкаешь ПКМ на TEXTGLOWSIZE:INT и выбираешь Mark property for export,
+далее отмечаешь таким же образом GLOWCOLOR:COLOR.
+Переходишь к Address, Breadcrumb & Search > Breadcrumb > Aero > Normal > Inactive Crumbs и те же действия.
+Далее Address, Breadcrumb & Search > Breadcrumb > Aero > Max > Active Crumbs и
+Address, Breadcrumb & Search > Breadcrumb > Aero > Max > Inactive Crumbs.
+Когда все нужные свойства отметил (Mark property for export), щелкаешь ПКМ на последнем отмеченном свойстве и выбираешь
+Export all marked properties to a StyleHack file. Тебе будет предложено дать описание и название файлу, который
+будет сохранен в папке %appdata%\Roaming\VistaStyleBuilder\StyleHacks.
+Теперь сохраненный StyleHack можно применить к любому стилю!
+По своей сути файл StyleHack является библиотекой (.dll), значения которой переносятся программой V\WSB в выбранный стиль.
+
+************************************
+Explorer & Shell > Explorer > ProperTree > <2>    - culoarea la partea stinga a ferestrii
+Explorer & Shell > Explorer > Items View > ItemsView   - culoarea la text cind fisierul e apasat odata si backgroundul la fereastra
+
+adressbar 
+Цвет текста [Активный] || Address, Breadcrumb & Search > Breadcrumb > Basic > Normal > Active Crumbs (TEXTCOLOR:COLOR) 
+Цвет текста [Неактивный] || Address, Breadcrumb & Search > Breadcrumb > Basic > Normal > InActive Crumbs (TEXTCOLOR:COLOR) 
+********************************
+Командный модуль
+Заливка градиентом [Если <1> прозрачный рисунок] || Explorer & Shell > Explorer > CommandModule > <2> (GRADIENTCOLOR1:COLOR), (GRADIENTCOLOR2:COLOR) и (GRADIENTCOLOR3:COLOR) 
+Библиотеки [Заголовок] || Explorer & Shell > Explorer > CommandModule > <10> > <1> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Активный] [x1] || Explorer & Shell > Explorer > CommandModule > <3> > <1> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Активный] [x2] || Explorer & Shell > Explorer > CommandModule > <4> > <1> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Активный] [x3] || Explorer & Shell > Explorer > CommandModule > <5> > <1> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Неактивный] [x1] || Explorer & Shell > Explorer > CommandModule > <3> > <6> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Неактивный] [x2] || Explorer & Shell > Explorer > CommandModule > <4> > <6> (TEXTCOLOR:COLOR) 
+Цвет текста [Элементы] [Неактивный] [x3] || Explorer & Shell > Explorer > CommandModule > <5> > <6> (TEXTCOLOR:COLOR) 
+******************************
+Изменение внутреннего цвета окон
+Explorer & Shell -> Explorer -> Proper Tree -> 2 -> FILLCOLORHINT:COLOR 
+Explorer & Shell -> Explorer -> Items View -> Items View -> FILLCOLOR:COLOR 
+Explorer & Shell -> Explorer -> Reading Pane -> Background -> GRADIENTCOLOR:COLOR ( все 3 ) 
+******************************
