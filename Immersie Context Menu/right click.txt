@@ -1,0 +1,20 @@
+MenuStyle
+BarBackground - Numai FILLCOLORHINT
+BarItem - Nimic
+PopUpBackground - Numai FILLCOLORHINT
+PopUpBorders - Nimic
+PopUpGutter - Numai FILLCOLORHINT
+PopUpItem - Nimic
+***
+Immersive Context Menu
+BarBackground - Nimic (Numai Inherited Properties)
+BarItem - Nimic (Numai Inherited Properties)
+PopupBackground - Nimic (Numai Inherited Properties)
+PopupBorders - Nimic (Numai Inherited Properties)
+PopUpGutter - Nimic (Numai Inherited Properties)
+****
+Immersive Dark Context Menu
+BarBackground - Nimic (Numai Inherited Properties)
+BarItem - Nimic (Numai Inherited Properties)
+PopupBorders - Nimic (Numai Inherited Properties)
+PopUpGutter - Nimic (Numai Inherited Properties)

@@ -1,0 +1,19 @@
+-----------------------------------------------------------
+-------ExplorerFrame.dll -- UIFILE -- 40960-------
+-----------------------------------------------------------
+UIItem -> List View Item Background (Icon & Label) (All Views Except Details)
+UIImage -> Icon Background
+UIProperty -> Label Background
+UIItemsView -> List View Background (All Views)
+ItemGridLayout -> Item Grid (All Views Except Details and Content)
+ItemRowLayout -> Row Background (Details and Content View) [Note: In Content View this is under UIItem]
+
+-------------------------------------------------------
+-----------------Color Reference------------------
+-------------------------------------------------------
+UIItem -> Sea Green
+UIImage -> Olive Green
+UIProperty -> Light Blue
+UIItemsView -> Purple
+ItemGridLayout -> Hot Pink
+ItemRowLayout -> Orange
